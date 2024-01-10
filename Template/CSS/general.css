@@ -1,0 +1,47 @@
+.main{
+    /* background: rgb(254,217,237);
+    background: linear-gradient(320deg, rgba(254,217,237,1) 0%, rgba(231,188,222,1) 35%, rgba(121,199,238,1) 66%, rgba(0,212,255,1) 100%); */
+}
+
+div{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.introSection img{
+    max-width: 100%;
+    height: auto;
+}
+
+.introCard{
+    width: 80%;
+    margin-left: 8.5vw;
+    margin-top: 30%;
+}
+
+.btn1Style{
+    width: 100%;
+    margin-top: 1vh;
+}
+
+.imgKen{
+    border-bottom: 20px;
+    width: 45vh;
+    height: auto;
+}
+
+.imgGrad{
+    width: 40vw;
+}
+
+.projectsCard{
+    
+}
+
+.projectCard{
+    margin-bottom: 5vh;
+}
+
+.certMarketing{
+
+}
