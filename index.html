@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="bootstrap-layout">
 
 <head>
     <meta charset="utf-8">
@@ -15,6 +15,9 @@
 
     <!-- Bootstrap Link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Head Icon -->
+    <link rel="icon" href="Resources/logo/moon.png">
 </head>
 
 <!-- <header class="text-center">
@@ -55,23 +58,27 @@
                                     <h6 class="card-subtitle text-start text-body-secondary">IT Graduate / Marketing Officer</h6>
                                     <br>
                                     <p class="card-text text-start">
-                                        You might be wondering who am I, right? Well then, let me show you around.
+                                        You might be wondering who I am. Well then, have a look around!
                                     </p>
                                     <!-- Buttons for Javascript -->
                                     <div class="row">
-                                        <div class="col-xxl-4 col-lg-12">
-                                            <a href="#" onclick="btnClicked()" class="btn btn1Style btn-primary">Projects</a>
+                                        <!-- <div class="col-xxl-4 col-lg-12">
+                                            <a href="#" onclick="btnProjects()" class="btn btn1Style btn-primary">Projects</a>
                                         </div>
                                         <div class="col-xxl-4 col-lg-12">
-                                            <a href="#" class="btn btn1Style btn-primary">Certifications</a>
+                                            <a href="#" onclick="btnCertifications()" class="btn btn1Style btn-primary">Certifications</a>
                                         </div>
-                                        <div class="col-xxl-4 col-lg-12">
-                                            <a href="#" class="btn btn1Style btn-primary">Contact Me</a>
+                                        <div class="col-xxl-4 col-lg-12"> -->
+                                        <div class="col-2"></div>
+                                        <div class="col-8">
+                                            <a href="#" onclick="btnContact()" class="btn btn1Style btn-primary">Contact Me</a>
                                         </div>
+                                        <div class="col-2"></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                         <!-- Right section for Image -->
                         <div class="col-xl-6 col-md-12">
                             <div class="row">
@@ -82,69 +89,133 @@
                                 <div class="col-xl-1 col-md-3 col-xs-4"></div>
                             </div>
                         </div>
+
                     </div>
 
                     <!-- Sub Section for Portfolio List -->
                     <div class="p-3 row border-top projectsCard">
                         <div class="col-12">
-                            <h2 class="#">My Projects</h2>
+                            <h2 class="myProjectsList">My Projects</h2>
+
                             <!-- Cards for Projects 6 column -->
                             <div class="card-body row">
                                 <div class="col-1"></div>
+
                                 <div class="col-10">
                                     <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-4 text-start">
-                                        <div class="col">
+                                        <div class="col gallery">
                                             <div class="card h-100">
-                                            
+                                            <img src="Resources/logo/l'tres.png" class="card-img-top" alt="L'tres Logo">
                                             <div class="card-body">
-                                                <h5 class="card-title">Card title</h5>
-                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <h5 class="card-title">L'tres</h5>
+                                                <p class="card-text">
+                                                    A resorts portal within the province of Bataan. It was made under our Course Subject, ICTC1023.
+                                                </p>
                                             </div>
                                             <div class="card-footer">
-                                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                                                <small class="text-body-secondary">Role: Frontend Dev</small>
                                             </div>
                                             </div>
                                         </div>
                                         <div class="col">
                                             <div class="card h-100">
-                                            
+                                            <img src="Resources/logo/bpsuwebport.png" class="card-img-top" alt="BPSU Web Portal">
                                             <div class="card-body">
-                                                <h5 class="card-title">Card title</h5>
-                                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                                <h5 class="card-title">BPSU Prototype Hub</h5>
+                                                <p class="card-text">
+                                                    As the name suggests, it was made to replace the BPSU website. It was made under our College Course Subject, ITNW0223.
+                                                </p>
                                             </div>
                                             <div class="card-footer">
-                                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                                                <small class="text-body-secondary">Role: Frontend Dev</small>
                                             </div>
                                             </div>
                                         </div>
                                         <div class="col">
                                             <div class="card h-100">
-                                            
+                                            <img src="Resources/logo/rina.png" class="card-img-top" alt="RINA Logo">
                                             <div class="card-body">
-                                                <h5 class="card-title">Card title</h5>
-                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                                <h5 class="card-title">TENSAI</h5>
+                                                <p class="card-text">
+                                                    An interactive web learning portal for Elementary students. It was made under our College Course Subject and Requirement, ICTC2023 & ICTC2113.
+                                                </p>
                                             </div>
                                             <div class="card-footer">
-                                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                                                <small class="text-body-secondary">Role: Virtual Assistant Dev</small>
+                                                </br>
+                                                <small class="text-body-secondary">Link: <a href="http://tensaiedu.online/">TENSAI: E-learning</a></small>
                                             </div>
                                             </div>
                                         </div>
                                         <div class="col">
                                             <div class="card h-100">
-                                            
+                                            <img src="Resources/logo/portfol.png" class="card-img-top" alt="Portfolio Preview">
                                             <div class="card-body">
-                                                <h5 class="card-title">Card title</h5>
-                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                                <h5 class="card-title">This Portfolio</h5>
+                                                <p class="card-text">
+                                                    This is one of the first personal project. As you may have noticed, it's still rough around the edges but it's completely adaptive.
+                                                </p>
                                             </div>
                                             <div class="card-footer">
-                                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                                                <small class="text-body-secondary">Role: Fullstack Dev</small>
+                                                </br>
+                                                <small class="text-body-secondary">Link: <a href="https://khenryperez.github.io/">Simplified Portfolio</a></small>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="card h-100">
+                                            <img src="Resources/logo/WISenroll.png" class="card-img-top" alt="WIS Enrollment System Preview">
+                                            <div class="card-body">
+                                                <h5 class="card-title">WIS Enrollment System ver.1</h5>
+                                                <p class="card-text">
+                                                    A basic enrollment system for Westfields International School. It's a simplified kit in order to minimize the use of ink and paper enrollment.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <small class="text-body-secondary">Role: Frontend Dev</small>
+                                                </br>
+                                                <small class="text-body-secondary">Link: <a href="https://westfields.edu.ph/index.php/admission/">Westfields Admissions Form</a></small>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="card h-100">
+                                            <img src="Resources/logo/WISevents.png" class="card-img-top" alt="WIS Website Preview">
+                                            <div class="card-body">
+                                                <h5 class="card-title">WIS Website ver.2</h5>
+                                                <p class="card-text">
+                                                    Released version 2 of the Westfields International School website. Content moderation using Elementor/Wordpress.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <small class="text-body-secondary">Role: Content Moderator</small>
+                                                </br>
+                                                <small class="text-body-secondary">Link: <a href="https://westfields.edu.ph">westfields.edu.ph</a></small>
+                                            </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col">
+                                            <div class="card h-100">
+                                            <img src="Resources/logo/GDrive.svg" class="card-img-top" alt="Google Drive Logo">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Google Drive Portfolio</h5>
+                                                <p class="card-text">
+                                                    Here's my GDrive for more content (Marketing, Photo/Video, Graphics Design, Source Code)
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <small class="text-body-secondary">Link: <a href="https://drive.google.com/drive/folders/1HJDr23rllMnQS3JHGdHwNiZVLFBCdzVC?usp=sharing">My Whole Portfolio</a></small>
                                             </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+
                                 <div class="col-1"></div>
                             </div>
+
                         </div>
                     </div>
 
@@ -154,45 +225,62 @@
                             <h2 class="p-3">My Certifications</h2>
                         </div>
                         <div class="col-xl-1 col-md-0"></div>
+
                             <div class="col-xl-10 col-md-12">
                                 <div class="row">
                                     <div class="col-xl-4 col-md-12 border-left border right">
-                                        <p>IT-related</p>
+                                        <div class="card-header">
+                                            <h4>IT-related</h4>
+                                        </div>
                                         <ul class="text-start">
-                                            <li>One</li>
-                                            <li>Two</li>
-                                            <li>Three</li>
+                                            <li>(06/08/2023) Microsoft Office Specialist - Associate (Office 2019)</li>
+                                            <li>(06/08/2023) Microsoft Excel (Office 2019)</li>
+                                            <li>(06/06/2023) Microsoft PowerPoint (Office 2019)</li>
+                                            <li>(06/05/2023) Microsoft Word (Office 2019)</li>
+                                            <li>(01/31/2023) Optimizing a Website for Google Search</li>
+                                            <li>(01/30/2023) Google SEO Fundamentals</li>
+                                            <li>(01/30/2023) Introduction to Google SEO</li>
+                                            <li>(07/13/2022) Learn Basic Statistics with Python</li>
+                                            <li>(07/13/2022) Programming for Intermediate Users Using Python</li>
+                                            <li>(07/12/2022) Programming for Beginners Using Python</li>
+                                            <li>(07/12/2022) DICT-WD002 Using HTML and CSS to Design a Website</li>
+                                            <li>(07/04/2022) Information Technology Specialist – Network Security</li>
+                                            <li>(04/24/2022) Patent Information Search Webinar</li>
                                         </ul>
                                     </div>
                                     <div class="col-xl-4 col-md-12 border-left border right">
-                                        <p>Marketing-related</p>
+                                        <div class="card-header">
+                                            <h4>Marketing-related</h4>
+                                        </div>
                                         <ul class="text-start">
-                                            <li>One</li>
-                                            <li>Two</li>
-                                            <li>Three</li>
+                                            <li>(09/12/2020) How to Design Dazzling Graphics that Pops! Webinar</li>
+                                            <li>(08/27/2020) How to Create a Dynamic Layout and Composition Like a Pro Webinar</li>
                                         </ul>
                                     </div>
                                     <div class="col-xl-4 col-md-12 border-left border right">
-                                        <p>Other</p>
+                                        <div class="card-header">
+                                            <h4>Other</h4>
+                                        </div>
                                         <ul class="text-start">
-                                            <li>One</li>
-                                            <li>Two</li>
-                                            <li>Three</li>
+                                            <li>(10/2021)  TESDA - NCII Caregiving</li>
+                                            <li>(06/2021) PRC - Standard First Aid and Basic Life Support</li>
+                                            <li>(01/2021) Practicing COVID-19 Preventive Measures in the Workplace</li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
+
                         <div class="col-xl-1 col-md-0"></div>
                     </div>
 
                     <!-- Sub Section for Badges -->
                     <div class="row p-4">
-                        <div class="col-12">
+                        <div class="col-xl-12 col-xs-6">
                             <h2 class="p-3">Badges</h2>
-                            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="8c072d9f-c623-431a-ab93-7161c356636c" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="2bfb0ecc-2cce-427b-9c6c-9056f3394d80" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="b3f669e9-f719-4f71-be7c-a191e63aabcb" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="29a5dcb2-40a2-4a2e-b89b-7129e9bf9b20" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                            <div data-iframe-width="120" data-iframe-height="270" data-share-badge-id="8c072d9f-c623-431a-ab93-7161c356636c" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                            <div data-iframe-width="120" data-iframe-height="270" data-share-badge-id="2bfb0ecc-2cce-427b-9c6c-9056f3394d80" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                            <div data-iframe-width="120" data-iframe-height="270" data-share-badge-id="b3f669e9-f719-4f71-be7c-a191e63aabcb" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                            <div data-iframe-width="120" data-iframe-height="270" data-share-badge-id="29a5dcb2-40a2-4a2e-b89b-7129e9bf9b20" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
                         </div>
                     </div>
 
@@ -214,21 +302,36 @@
                         <div class="col-1"><p> </p></div>
                         <div class="card-group col-xl-5">
                             <div class="card-body text-start">
-                                <h4 class="card-title">Full name here</h4>
-                                <h5 class="card-subtitle mb-2 text-body-secondary">Subtitle here</h5>
-                                <p class="card-text">
-                                    Insert a bunch of bullshit here for viewers to rant about.
+                                <h4 class="card-title">Khenry John O. Perez</h4>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">BS Information Technology Major in Network and Web Application</h6>
+                                <h6 class="card-subtitle mb-2 font-monospace">DOB: 09/28/2000</h6>
+                                <h6 class="card-subtitle mb-2 font-monospace">+63 920 222 1295</h6>
+                                <p class="card-body text-start">
+                                    <i>
+                                        "Hello! My name is Khenry. You can call me "Khen". I'm a proud alumni of BPSU Class of 2023. As you may have noticed,
+                                        my portfolio is a simplified version of what you need to know about me. Anyways, thank you for visiting my portfolio and
+                                        I hope you have a wonderful day!"
+                                    </i>
                                 </p>
+                                <div class="card">
+                                    <div class="row contactLinks card-body">
+                                        <div class="col-3">
+                                            <a href="https://m.me/khenoy28"><img src="Resources/logo/fbm.svg" alt="FB Messenger Logo"></a>
+                                        </div>
+                                        <div class="col-3">
+                                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=khenryjohnperez@gmail.com"><img src="Resources/logo/gmail.png" alt="Gmail Logo"></a>
+                                        </div>
+                                        <div class="col-3">
+                                            <a href="https://www.linkedin.com/in/khenryperez/"><img src="Resources/logo/linkin.png" alt="LinkedIn Logo"></a>
+                                        </div>
+                                        <div class="col-3">
+                                            <a href="https://github.com/khenryperez"><img src="Resources/logo/gitlog.svg" alt="GitHub Logo"></a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-1"></div>
-                    </div>
-
-                    <!-- Sub Section for Gallery -->
-                    <div class="row p-4">
-                        <div class="col-12">
-                            <h2 class="p-3">Gallery</h2>
-                        </div>
                     </div>
 
                 </div>
@@ -239,14 +342,13 @@
                 </div>
             </div>
         </div>
+
+        <div class="container p-5">
+            <footer class="border-top">
+                <div>
+                    <p class="text-center">© 2024 - Khenry Perez</p>
+                </div>
+            </footer>
+        </div>
     </div>
 </body>
-<div class="container p-5">
-    <footer class="border-top">
-        <div>
-            <p class="text-center">Copyright 2024 - Khenry Perez</p>
-        </div>
-    </footer>
-</div>
-
-</html>

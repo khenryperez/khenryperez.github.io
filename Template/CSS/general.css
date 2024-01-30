@@ -45,3 +45,21 @@ div{
 .certMarketing{
 
 }
+
+.card-img-top {
+    width: 100%;
+    height: 20vh;
+    object-fit: contain;
+}
+
+.projectsCard .card-title {
+    width: 100%;
+    padding-bottom: 2vh;
+}
+
+.contactLinks img{
+    width: 100%;
+    height: 5vh;
+    padding: .5vh 0vh .5vh 0vh;
+    object-fit: contain;
+}
